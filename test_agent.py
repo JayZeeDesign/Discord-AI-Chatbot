@@ -8,7 +8,7 @@ import openai
 from langchain.schema import SystemMessage
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
-from langchain import PromptTemplate
+from langchain.prompts import PromptTemplate
 from langchain.memory import ConversationBufferWindowMemory
 import requests
 from bs4 import BeautifulSoup
