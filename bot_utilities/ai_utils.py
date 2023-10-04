@@ -19,7 +19,7 @@ from langchain.schema import SystemMessage
 from langchain.memory import ConversationBufferWindowMemory
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.summarize import load_summarize_chain
-from langchain import PromptTemplate
+from langchain.prompts import PromptTemplate
 from bs4 import BeautifulSoup
 from pydantic import Field
 from langchain.prompts import ChatPromptTemplate

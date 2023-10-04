@@ -159,6 +159,7 @@ You can additionally enable `gpt-4` in `config.yml`
 ```
 DISCORD_TOKEN=<YOUR_DISCORD_BOT_TOKEN
 CHIMERA_GPT_KEY=<YOUR_CHIMIRA_API_KEY>
+OPENAI_API_KEY=<YOUR_OPENAI_API_KEY>
 ```
 ### Step 7. 🚀 Run the bot
 ```
